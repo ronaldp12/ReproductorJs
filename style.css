@@ -13,8 +13,8 @@ body{
     background: url(bgBody.avif);
 }
 
-.container_player{
-    width: 18rem;
+.container-player{
+    width: 20rem;
     height: 25rem;
     border-radius: 10px;
     background-color: #7a839a;
@@ -25,26 +25,26 @@ body{
     padding: 1rem;
 }
 
-.container_player >h1{
+.container-player >h1{
     font-size: 2rem;
     color: #b9cfe9;
 }
 
-.container_album{
+.container-album{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container_album >img{
+.container-album >img{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     margin: 1rem 0 1rem 0;
 }
 
-.container_player >.controls{
+.container-player >.controls{
     width: 100%;
     height: 48%;
     display: flex;
